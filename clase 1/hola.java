@@ -17,7 +17,7 @@ public class hola {
         double suma = nota1 + nota2 + nota3;
         return suma / 3.0;
     }
-
+    //funcion: procesa los datos de la matriz para luego retornar un valor
     public static double promedioMatriz(double[] valores){
         double suma =valores[0] + valores [1] + valores[2];
         valores[0] = 0;

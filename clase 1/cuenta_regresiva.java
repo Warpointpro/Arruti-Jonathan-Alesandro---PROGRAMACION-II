@@ -1,5 +1,5 @@
 public class CuentaRegresiva {
-
+ //crea un main para llamar a una funcion recursiva que se usara despues
     public static void main(String[] args) {
         System.out.println("Iniciando conteo...");
         conteoRecursivo(5); // Llamada inicial con el número 5
@@ -9,6 +9,7 @@ public class CuentaRegresiva {
      * Método recursivo para contar hacia atrás.
      * @param numero El número actual del conteo.
      */
+    //crea una funcion recursiva con un conteo hacia atras//
     public static void conteoRecursivo(int numero) {
         // 1. CASO BASE: ¿Llegamos al final del conteo?
         if (numero == 0) {

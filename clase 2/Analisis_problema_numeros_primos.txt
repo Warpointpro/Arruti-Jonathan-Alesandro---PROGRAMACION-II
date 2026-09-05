@@ -1,0 +1,22 @@
+PROBLEMA NUMEROS PRIMOS:
+Definicion numero primo: consideramos primero que es un numero primo antes de escribir codigo.
+Un numero primero por definicion es todo numero natural que solo cuenta con dos divisores los cuales son
+su mismo numero y por 1, teniendo eso en claro empezaremos estructurando el codigo paso a paso para determinar
+mediante la definicion anterior lo que es un numero primo y lo que no lo es 
+
+ENTRADA:
+
+Como entrada tendremos un numero entero si o si
+
+SALIDA:
+
+Un mensaje por pantalla si dicho numero introducido es primo o no
+
+RESTRICCIONES / CASOS ESPECIALES:
+
+& Primera restriccion a tener en cuenta son numeros como 1 o menor a cero.
+
+& El 2 es el unico numero que se tomara como par primo.
+
+& Los numeros negativos jamas seran considerados primos y en su lugar se tratan como un error
+o simplemente se le pedira ingresar otro numero disinto.

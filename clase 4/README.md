@@ -1,3 +1,5 @@
+TEMA ABORDADO: Programacion orientada a objetos, concepto de encapsulamiento, uso de constructores, Getter y Setter, validacion de datos, manejo de fechas e imports, arreglos y algoritmos de recorridos (burbuja, entre otros).
+
 Las tareas son ejercicio_1.java y ejercicio_2.java y ejercicio_3.java
 
 TAREAS EN CUESTION: 

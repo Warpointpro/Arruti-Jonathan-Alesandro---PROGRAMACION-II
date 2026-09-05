@@ -1,0 +1,42 @@
+PSEUDOCODIGO (NUMEROS PRIMOS)
+
+INICIO
+ Escribir "ingrese numero"
+ Leer numero
+  si numero < 0 entonces
+   Escribir "Error, el numero no puede ser negativo"
+  finsi
+  si numero == 0 o numero == 1 entonces
+   Escribir "No es un numero primo"
+  finsi
+  sino
+   esprimo == verdadero
+   para i = 2 hasta numero hacer
+    si numero MOD i == 0 entonces
+    esprimo == falso
+    finsi
+   finpara
+  si esprimo == falso entonces 
+   Escribir "El numero no es primo"
+  finsi
+  si esprimo == verdadero entonces
+   Escribir "El numero es primo" 
+  finsi
+FIN
+
+
+TABLA DE CASOS:
+
+ NRO    ENTRADA        RESULTADO ESPERADO                TIPO DE CASO
+  
+  1       5              "Es primo"                        NORMAL 
+ 
+  2       4              "No es primo"                     NORMAL    
+
+  3       0              "No es primo"                     CASO LIMITE    
+
+  4       1              "No es primo"                     CASO LIMITE 
+  
+  5       2               "Es primo"                       CASO LIMITE
+ 
+  6      -5            "Error, numero negativo"            CASO ERROR  

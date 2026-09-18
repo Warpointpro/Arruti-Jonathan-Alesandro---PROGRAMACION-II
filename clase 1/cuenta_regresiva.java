@@ -1,4 +1,4 @@
-public class CuentaRegresiva {
+public class cuenta_regresiva {
  //crea un main para llamar a una funcion recursiva que se usara despues
     public static void main(String[] args) {
         System.out.println("Iniciando conteo...");
